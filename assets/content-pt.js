@@ -176,9 +176,9 @@ COURSE.modules = [
           ['Clicar em Publish','O botão abre o formulário de publicação: o aluno preenche o título e a descrição do projeto e escolhe as configurações.'],
           ['Escolher a visibilidade','<b>Public</b> aparece no Feed e no portfólio público. <b>Friends only</b> só para amigos e professores. <b>Only me</b> deixa o projeto privado — ninguém mais consegue abrir o link, nem você. Não exija que seja público, mas confira se <b>você tem acesso ao resultado</b>.'],
           ['Ativar Request feedback (se o aluno quiser)','Assim outros alunos podem deixar um feedback estruturado (impressão geral, pontos fortes e o que melhorar). Funciona só em projetos públicos.'],
-          ['Copiar o link e enviar no cartão','O link enviado deve ser o do <b>projeto publicado</b>. Vale lembrar: publicar no Sparks e enviar o link na plataforma são <b>dois passos diferentes</b>.']
+          ['Copiar o link e enviar no cartão','O link é o endereço da página do projeto: em <b>My projects</b>, o aluno abre o <b>projeto publicado</b> e copia o link da <b>barra de endereço do navegador</b>.  Vale lembrar: publicar no Sparks e enviar o link na plataforma são <b>dois passos diferentes</b>.']
         ]},
-        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
+        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
       ]},
       { id:'trouble', e:'🛠️', title:'Quando algo dá errado', blocks:[
         { t:'acc', open:false, items:[
